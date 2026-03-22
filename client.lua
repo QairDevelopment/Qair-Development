@@ -16,7 +16,7 @@ local function HideUI()
         uiOpen = false
     end
 end
-
+ 
 -- Create blips and markers
 Citizen.CreateThread(function()
     for k, zone in pairs(Config.RepairZones) do
